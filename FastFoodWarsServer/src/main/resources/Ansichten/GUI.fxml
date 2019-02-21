@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<!--
+      Autoren: Marcin Urbaniak, Christoph Wohlers
+-->
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="340.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Server.GUI.GUIHandler">
+   <children>
+      <Button fx:id="starteServerButton" layoutX="118.0" layoutY="193.0" mnemonicParsing="false" onAction="#starteServerAction" prefHeight="25.0" prefWidth="104.0" text="Server starten" />
+      <Label layoutX="139.0" layoutY="25.0" text="Server-Port:" />
+      <TextField fx:id="serverPortFeld" layoutX="96.0" layoutY="55.0" promptText="Server-Port" text="4444" />
+      <Label layoutX="136.0" layoutY="103.0" text="Kartenbreite:" />
+      <TextField fx:id="kartenBreiteFeld" layoutX="96.0" layoutY="143.0" promptText="Kartenbreite" text="9" />
+   </children>
+</Pane>
